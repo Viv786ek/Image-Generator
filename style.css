@@ -16,7 +16,7 @@ body {
     text-align: center;
   }
   
-  nav {
+  /* nav {
     background-color: #4caf50;
     padding: 10px;
   }
@@ -25,7 +25,7 @@ body {
     color: #fff;
     text-decoration: none;
     margin-right: 10px;
-  }
+  } */
   
   section#chat-container {
     max-width: 600px;
@@ -71,28 +71,5 @@ body {
   
   #chat-input button:hover {
     background-color: #45a049;
-  }
-  
-  #chat-messages .message {
-    margin-bottom: 10px;
-    padding: 10px;
-    border-radius: 5px;
-  }
-  
-  #chat-messages .user-message {
-    background-color: #e2e2e2;
-    color: #333;
-  }
-  
-  #chat-messages .bot-message {
-    background-color: #4caf50;
-    color: #fff;
-    text-align: right;
-  }
-  
-  #chat-messages .bot-message .timestamp {
-    font-size: 12px;
-    color: #fff;
-    opacity: 0.7;
   }
   
